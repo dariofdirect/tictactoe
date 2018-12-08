@@ -9,33 +9,37 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-
-<!--Table for the Game-->
-    <table>
+    <!-- Everything involving the game -->
+    <div class="container">
+      <!-- Table for the Game -->
+      <table>
         <tr>
-            <td class="cell" id="0"></td>
-            <td class="cell" id="1"></td>
-            <td class="cell" id="2"></td>
+          <td class="cell" id="0"></td>
+          <td class="cell" id="1"></td>
+          <td class="cell" id="2"></td>
         </tr>
         <tr>
-            <td class="cell" id="3"></td>
-            <td class="cell" id="4"></td>
-            <td class="cell" id="5"></td>
+          <td class="cell" id="3"></td>
+          <td class="cell" id="4"></td>
+          <td class="cell" id="5"></td>
         </tr>
         <tr>
-            <td class="cell" id="6"></td>
-            <td class="cell" id="7"></td>
-            <td class="cell" id="8"></td>
+          <td class="cell" id="6"></td>
+          <td class="cell" id="7"></td>
+          <td class="cell" id="8"></td>
         </tr>
-    </table>
-<!--Message for the winner-->
-<div class="endgame">
-    <div class="text"></div>
-</div>
-<!--Reset the Game-->
-<button onclick="startGame()">Replay Game</button>
+      </table>
 
+      <!-- Message for the winner -->
+      <div class="endgame"><div class="text"></div></div>
+      <!-- Reset the Game -->
+      <button onclick="startGame()">Replay Game</button>
 
+      <h1>
+        The Unbeatable Game! <br />
+        Can You Win?
+      </h1>
+    </div>
 
     <script src="script.js"></script>
   </body>
